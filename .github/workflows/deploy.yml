@@ -3,11 +3,11 @@
 
 name: TsinghuaDaily Report
 
-on:
-  # 每天北京时间 17:35点整 (utc+8)自动运行
-  schedule:
-    - cron: "35 9 * * *"
+on:[ ]
 
+# 每天北京时间 17:35点整 (utc+8)自动运行,现在停止运行,可以设置为push或其他
+#   schedule:
+#     - cron: "35 9 1 1  "
 jobs:
   submit_report:
 
